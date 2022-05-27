@@ -1,0 +1,16 @@
+.env/
+.idea/
+poc/
+bin/
+tests/
+build/
+*.spec
+releases/
+__pycache__/
+utils/__pycache__/
+scanner/__pycache__/
+packages/*[.zip]
+test-bizfly-cloud.py
+bzc_config_control.py
+packer/upx_win32/upx.exe
+packer/upx_win64/upx.exe
