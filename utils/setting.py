@@ -9,6 +9,5 @@ BUILD_DIR = os.path.join(BASE_DIR, 'build')
 PACKER_DIR = os.path.join(BASE_DIR, 'packer')
 PACKAGE_DIR = os.path.join(BASE_DIR, 'packages')
 RELEASE_DIR = os.path.join(BASE_DIR, 'releases')
-
 PY_LAUNCHER_NAME = 'nls-scanner.py'
 EXE_LAUNCHER_NAME = 'nls-scanner'

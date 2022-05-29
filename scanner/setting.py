@@ -12,5 +12,6 @@ TEMP_DIR = os.getenv('Temp')
 NLS_REPORT = os.path.join(TEMP_DIR, 'NLSScan')
 NLS_SCAN_EXE = os.path.join(BIN_DIR, 'NLSScan.exe')
 CWD_DIR = os.getcwd()
-# Please change Base url (s3)
+# Please change base_url and snippet_url
 BASE_URL = 'https://s3.example.test'
+SNIPPET_URL = 'https://your-snippet-url'
