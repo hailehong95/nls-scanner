@@ -166,7 +166,7 @@ def bzc_upload_file(file_name, bucket, object_name=None):
     return True
 
 
-# Multipart upload - Upload các tệp tin có kích thước lớn.
+# Multipart upload - For large size
 # Ref: https://support.bizflycloud.vn/api/simple-storage/?python--boto3#multipart-upload
 def bzc_multipart_upload(file_name, bucket, object_name=None):
     """
